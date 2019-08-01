@@ -3,5 +3,5 @@ def reverse_each_word(phrase)
   words.collect do |letters|
     letters.reverse!
   end
-  words.join
+  words.join(" ")
 end
