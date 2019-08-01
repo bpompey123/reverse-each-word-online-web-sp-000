@@ -1,3 +1,7 @@
 def reverse_each_word(phrase)
-  phrase.split(",")
+  words = phrase.split(",")
+  words.collect do |letters|
+    words.reverse!
+    
+  end
 end
