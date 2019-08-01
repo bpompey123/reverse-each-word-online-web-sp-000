@@ -1,7 +1,7 @@
 def reverse_each_word(phrase)
   words = phrase.split(",")
-  words.collect do |letters|
-    words
+#  words.collect do |letters|
+#    words
 
   end
 end
