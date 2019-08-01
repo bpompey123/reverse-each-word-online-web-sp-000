@@ -1,3 +1,3 @@
-def reverse_each_word(word)
-  
+def reverse_each_word(phrase)
+  phrase.split(",")
 end
